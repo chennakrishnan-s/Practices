@@ -1,3 +1,3 @@
 {{config (materialized = 'table')}}
 
-select * from SNOW_DB.PUBLIC.OPPORTUNITY_TB limit 50
+select * from SNOW_DB.PUBLIC.DIM1_TB limit 5
