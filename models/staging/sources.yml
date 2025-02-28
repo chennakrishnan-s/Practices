@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: employee_source
+    database: DBT
+    schema: DBT_SCHEMA
+    tables:
+      - name: employee_details
+      - name: dim_employee_details
+        
